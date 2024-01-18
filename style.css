@@ -1,0 +1,48 @@
+section{
+    position: fixed;
+    top: 100px;
+    left: 200px;  
+}
+
+#circle{
+    height:400px;
+    width: 400px;
+    background-color:rgb(238, 131, 10);
+    border-radius: 50% ;
+    box-shadow: 10px 10px 15px rgb(183, 94, 94);
+    transition:5s;
+    transition:transform 5s;
+}
+#circle:hover{
+    box-shadow: rgb(196, 153, 128) 20px 20px 20px;
+    background-color: rgba(243, 9, 9, 0.993);
+    transform: scale(0.2);
+    .eye1,.eye2{
+        background-color:rgb(57, 95, 130);
+    }
+    #mouth{
+        background-color: rgb(108, 126, 130);
+    }
+}
+.eye1,.eye2{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position:absolute;
+    top: 100px;
+    left: 100px;
+}
+.eye2{
+    left:250px;
+    right:100px;
+}
+#mouth{
+    height:75px ;
+    width: 200px;
+    border-radius:0 0 50px 50px;
+    background-color: brown;
+    position: absolute;
+    top:250px;
+    left:100px;
+}
